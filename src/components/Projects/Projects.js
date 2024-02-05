@@ -6,6 +6,7 @@ import openGL from "../../Assets/Projects/openGL.png";
 import cookieMayhem from "../../Assets/Projects/cookieMayhem.png";
 import drawnedInTaxes from "../../Assets/Projects/drawnedInTaxes.png";
 import driftMarket from "../../Assets/Projects/driftMarket.png";
+import arIcon from "../../Assets/Projects/ar_icon.png"
 
 function Projects() {
   return (
@@ -32,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={driftMarket}
+              imgPath={arIcon}
               isBlog={false}
               title="Aplication AR"
               description="Augmented Realty application developed on Unity for Android. In this app you have the capabilities of analyse the table, place the menu on the table, select your food and order it. Also you can play a mini game and get a e-mail with your order and possible discount!"
